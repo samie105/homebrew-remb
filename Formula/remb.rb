@@ -18,22 +18,22 @@ class Remb < Formula
   on_macos do
     on_arm do
       url "https://github.com/samie105/remb/releases/download/v#{version}/remb-darwin-arm64"
-      sha256 "0336cd8dba359f66136a54eb0bca7ffc7ad76a12de76880b8a302a58a11f44a6"
+      sha256 "ef876d3f8a4b3554dae4ec2977ee469ab35e1360ea8bb08decdb4fc2c1d9b68c"
     end
     on_intel do
       url "https://github.com/samie105/remb/releases/download/v#{version}/remb-darwin-amd64"
-      sha256 "43cf91b07fe9c0100220346bc064adfe851f1cd90ebb7648cd364d7b97ce7856"
+      sha256 "72ce7367ad42e5ee9a5a5513f1049f3229f3dd13a8afa9a0286a266287c04b4f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/samie105/remb/releases/download/v#{version}/remb-linux-arm64"
-      sha256 "143b4a8e465fb3b52836f8136410cf6c7993a91724ecfbc897ffa77ac1f2d178"
+      sha256 "1709e7d4f1ab1984acefcc010dce04dc3350cf14b7cb4328f86f5fb23c04a969"
     end
     on_intel do
       url "https://github.com/samie105/remb/releases/download/v#{version}/remb-linux-amd64"
-      sha256 "d1573f5d8900a82de94099ab819828797733d5ed1100b75b66e48d619af3dca8"
+      sha256 "2d699d9bcc923daea76b30ccdf3996e8ec85d5eef2185bbb1bb23d1ed669e545"
     end
   end
 
