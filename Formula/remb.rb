@@ -12,7 +12,7 @@
 class Remb < Formula
   desc "Persistent memory layer for AI coding sessions"
   homepage "https://useremb.com"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   on_macos do
