@@ -12,28 +12,28 @@
 class Remb < Formula
   desc "Persistent memory layer for AI coding sessions"
   homepage "https://www.useremb.com"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/samie105/remb/releases/download/v#{version}/remb-darwin-arm64"
-      sha256 "d76210a071f3128c6f31a8c34e43f536ad8fcd77667e6cbd4089dffcc80aa013"
+      sha256 "68fecea81ebce5521bdf7652710fb354eedcdc1f259b774f41cc3a82269a4ca6"
     end
     on_intel do
       url "https://github.com/samie105/remb/releases/download/v#{version}/remb-darwin-amd64"
-      sha256 "3f7fd2b6d4a7f09344b1ae52e53e23a25b6d1bf79f843da6a8f95ea60a6abacf"
+      sha256 "256a5f210b69fe7e6145f2f17e21d8e2631def71bcd776cb2eeb866ece01961a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/samie105/remb/releases/download/v#{version}/remb-linux-arm64"
-      sha256 "93eaf95fdc0d4bd2fcdc8e784ef54c1c7b8c98ad491dd81bb9c5669c7402331b"
+      sha256 "d6508262e14a4b0759af619ec374ee6cc6f11ddd77cf228111e4f0289933fee7"
     end
     on_intel do
       url "https://github.com/samie105/remb/releases/download/v#{version}/remb-linux-amd64"
-      sha256 "4cf4ba0f37c04d723cfe981cc2182f6d8ba218472c94ed7beacb23904c515949"
+      sha256 "e4c8bbed0128d1b6676cedc91465c621bc2ddc219a82f32dfe5ef9cfc7e6dbc4"
     end
   end
 
